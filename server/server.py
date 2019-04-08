@@ -11,13 +11,13 @@ import logging
 
 
 # Database connection information
-databaseConnectionInfo = {"Database name":"BLUDB","User ID":"dash7581","Password":"06VcIBzTv7FO","Host name":"dashdb-entry-yp-dal09-07.services.dal.bluemix.net","Port number":"50000"}
-DatabaseSchema = 'DASH7581'
+databaseConnectionInfo = {"Database name":"BLUDB","User ID":"KZl83489","Password":"q4n-k0k43bzf6svv","Host name":"dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net","Port number":"50000"}
+DatabaseSchema = 'KZl83489'
 
 # PUBNUB KEYS
 
-pub_key = 'pub-c-913ab39c-d613-44b3-8622-2e56b8f5ea6d'
-sub_key = 'sub-c-8ad89b4e-a95e-11e5-a65d-02ee2ddab7fe'
+pub_key = 'pub-c-8223f1a6-bf7c-4994-809b-cb73d0a2f835'
+sub_key = 'sub-c-89c65e5c-5947-11e9-a6e0-8a4660381032'
 
 LOG_FILENAME = 'ToDoApp_logs.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG,format='%(asctime)s, %(levelname)s, %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
